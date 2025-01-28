@@ -1,10 +1,13 @@
 //given that this is question is to be solved without using division operator and in o(n)
 
+//we will create another array right which will store the multiplication from the right
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
+
+        //this is the code for creating rigth array which contain the product from right
         int n =nums.length;
-        int[] right =new int[n]; //right array
+        int[] right =new int[n]; //right array of same length
 
         int pro =1; //product
 
@@ -13,6 +16,8 @@ class Solution {
             right[i]=pro;
 
         }
+
+        //ans will contain the final answer using right and left
         int[] ans=new int[n];
 
         int left=1;
