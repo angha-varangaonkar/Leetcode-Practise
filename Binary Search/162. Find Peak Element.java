@@ -11,7 +11,7 @@ class Solution {
             return nums.length-1;
         }
         else{
-            int start=1;
+            int start=1; //bcoz hum nums0 ko already check kar chuke hai 
             int end = nums.length-2;
 
             while(start <= end){
