@@ -1,3 +1,5 @@
+//in this question we also need to give the index of the target which is not present in the array but if vo element hota tu kaha hota uss array maine
+
 class Solution {
     public int searchInsert(int[] nums, int target) {
         //basic code of binary search 
