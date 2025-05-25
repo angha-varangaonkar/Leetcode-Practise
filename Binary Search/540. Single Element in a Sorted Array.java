@@ -1,6 +1,6 @@
 //idex ek pair ka humesha even se start hoga aur odd pe khatam hoga 
-//start = even 
-//end = odd
+//start == even 
+//end == odd
 
 class Solution {
     public int singleNonDuplicate(int[] nums) {
